@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h2>Outras formatações.</h2>
+    <h3>Código-fonte</h3>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. Utilizamos a tag CODE para monoespaçar as letras.</p>
+    <h3>Exemplo de código em linguagem Python.</h3>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+    print(f'O número {num} é PAR')
+    else:
+    print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <p>Somente a tag CODE não é suficiente para deixar o código pré-formatado. Precisamos envelopar na tag PRE. Aí sim o código ficará indentado.
+    <br><strong>Obs.:</strong> Se quisermos retirar a indentação, basta selecionar o código, sem as tags, apertar Shift + Tab. Para aumentar a indentação novamente, basta selecionar o código e apertar Tab somente.</p>
+    <h2>Citações simples.</h2>
+    <p>Como diria o pai de um amigo meu: <q>o computador é um burro muito rápido!</q><br>
+        Neste caso, utilizamos a tag q de quotation.
+    </p>
+    <h2>Citações completas.</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote>
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto. Um elemento inline é uma palavra ou grupo de palavras dentro de um elemento do bloco (por exemplo, elementos com ênfase no texto, tais como &lt;em&gt; ou &lt;strong&gt;.)
+    </blockquote>
+    <p>A tag utilizada é a blockquote.</p>
+    <h2>Abreviações</h2>
+    <p>Estou adorando o curso de <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    <p>Envelopamos a sigla com a tag abbr e colocamos o significado dela em title. Assim, quando posicionamos o mouse em cima da sigla, aparece o seu significado.</p>
+</body>
+</html>

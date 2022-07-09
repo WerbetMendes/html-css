@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            /*
+            Medidas absolutas:
+            cm, mm, in (polegada = 2,54cm), px, pt, pc
+
+            Medidas relativas:
+            em, ex (altura-x letra), rem (root - fonte configurada no body), vw (view width - largura da tela), vh (view height)
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* lighter normal bold bolder */
+            font-weight: bold;
+            font-style: italic;
+           
+        }
+
+        h1 {
+           font-style: italic;
+           font-weight: bolder;
+           font-size: 3em;
+           font-family: 'Work Sans', sans-serif;
+           /*Podemos reduzir todas as 4 propriedades acima em uma única propriedade: font. Essa propriedade é chamada de shorthand. Exatamemente na ordem em que estão. */
+           font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere est, aliquid eius impedit id possimus enim harum ea explicabo commodi aperiam ratione eligendi laudantium ipsum reiciendis ipsa nesciunt magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere est, aliquid eius impedit id possimus enim harum ea explicabo commodi aperiam ratione eligendi laudantium ipsum reiciendis ipsa nesciunt magni esse!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ad officiis sequi, quisquam sed sapiente iusto vitae velit necessitatibus veritatis beatae id nesciunt? Illum molestiae quibusdam recusandae ipsam laborum neque!</p>
+    <h2>Substituto do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nostrum corporis in non, et nam aut eum voluptatum nemo similique? Inventore neque sed modi voluptate natus, ea quia ullam at!</p>
+</body>
+</html>
