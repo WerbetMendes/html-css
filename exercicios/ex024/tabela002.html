@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            background-color: rgb(182, 181, 181);
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        thead, tfoot {
+            background-color: rgb(182, 181, 181);
+            height: 50px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(182, 181, 181);
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: rgb(227, 226, 226);
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">População (2010)</th>
+                <th scope="col">População (2021)</th>
+                <th scope="col">% da pop. total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td class="estado" id="saopaulo">São Paulo</td>
+                <td>41 262 199</td>
+                <td>46 649 132</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td>21 411 923</td>
+                <td>10,1%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>41 262 199</td>
+                <td>46 649 132</td>
+                <td>8,2%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 016 906</td>
+                <td>14 985 284</td>
+                <td>7,1%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td>10 444 526</td>
+                <td>11 597 484</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Rio Grande do Sul</td>
+                <td>10 693 929</td>
+                <td>11 466 630</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernambuco</td>
+                <td>8 796 448</td>
+                <td>9 674 793</td>
+                <td>4,5%</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td>8 452 381</td>
+                <td>9 240 580</td>
+                <td>4,3%</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pará</td>
+                <td>7 581 051</td>
+                <td>8 777 124</td>
+                <td>4,1%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td>3,4%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>4</td>
+                <td>4</td>
+                <th scope="row">Total de População</th>
+                <td>210 000 168</td>
+                <td>46,5%</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum illum fugiat quisquam repudiandae sed dicta vitae cumque sapiente, iste quo repellendus perspiciatis, eveniet blanditiis totam quae dolor vero sint suscipit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dignissimos consequuntur labore non fugit voluptas, quaerat, sit corrupti eos ducimus soluta dolorum in asperiores et, mollitia neque autem. Corporis, magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut, repellendus numquam mollitia porro sequi non placeat maxime id natus ad quia, eveniet temporibus dolor corporis cum impedit architecto sint.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum illum fugiat quisquam repudiandae sed dicta vitae cumque sapiente, iste quo repellendus perspiciatis, eveniet blanditiis totam quae dolor vero sint suscipit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dignissimos consequuntur labore non fugit voluptas, quaerat, sit corrupti eos ducimus soluta dolorum in asperiores et, mollitia neque autem. Corporis, magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut, repellendus numquam mollitia porro sequi non placeat maxime id natus ad quia, eveniet temporibus dolor corporis cum impedit architecto sint.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum illum fugiat quisquam repudiandae sed dicta vitae cumque sapiente, iste quo repellendus perspiciatis, eveniet blanditiis totam quae dolor vero sint suscipit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dignissimos consequuntur labore non fugit voluptas, quaerat, sit corrupti eos ducimus soluta dolorum in asperiores et, mollitia neque autem. Corporis, magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut, repellendus numquam mollitia porro sequi non placeat maxime id natus ad quia, eveniet temporibus dolor corporis cum impedit architecto sint.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum illum fugiat quisquam repudiandae sed dicta vitae cumque sapiente, iste quo repellendus perspiciatis, eveniet blanditiis totam quae dolor vero sint suscipit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dignissimos consequuntur labore non fugit voluptas, quaerat, sit corrupti eos ducimus soluta dolorum in asperiores et, mollitia neque autem. Corporis, magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut, repellendus numquam mollitia porro sequi non placeat maxime id natus ad quia, eveniet temporibus dolor corporis cum impedit architecto sint.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum illum fugiat quisquam repudiandae sed dicta vitae cumque sapiente, iste quo repellendus perspiciatis, eveniet blanditiis totam quae dolor vero sint suscipit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dignissimos consequuntur labore non fugit voluptas, quaerat, sit corrupti eos ducimus soluta dolorum in asperiores et, mollitia neque autem. Corporis, magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut, repellendus numquam mollitia porro sequi non placeat maxime id natus ad quia, eveniet temporibus dolor corporis cum impedit architecto sint.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum illum fugiat quisquam repudiandae sed dicta vitae cumque sapiente, iste quo repellendus perspiciatis, eveniet blanditiis totam quae dolor vero sint suscipit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dignissimos consequuntur labore non fugit voluptas, quaerat, sit corrupti eos ducimus soluta dolorum in asperiores et, mollitia neque autem. Corporis, magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut, repellendus numquam mollitia porro sequi non placeat maxime id natus ad quia, eveniet temporibus dolor corporis cum impedit architecto sint.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum illum fugiat quisquam repudiandae sed dicta vitae cumque sapiente, iste quo repellendus perspiciatis, eveniet blanditiis totam quae dolor vero sint suscipit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dignissimos consequuntur labore non fugit voluptas, quaerat, sit corrupti eos ducimus soluta dolorum in asperiores et, mollitia neque autem. Corporis, magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut, repellendus numquam mollitia porro sequi non placeat maxime id natus ad quia, eveniet temporibus dolor corporis cum impedit architecto sint.</p>
+</body>
+</html>
